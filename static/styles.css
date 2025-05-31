@@ -1,0 +1,69 @@
+/* 마블 스타일: 어두운 배경, 강렬한 레드, 화이트, 블랙 대비 */
+
+body {
+    background-color: #0b0c10; /* 어두운 배경 */
+    color: #ffffff; /* 흰색 텍스트 */
+    font-family: 'Arial Black', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #1f2833; /* 다크 그레이 박스 */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.6); /* 붉은 광채 효과 */
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: #66fcf1; /* 청록색 포인트 */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #c5c6c7;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #45a29e;
+    border-radius: 5px;
+    background-color: #0b0c10;
+    color: white;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #e50914; /* 넷플릭스/마블 붉은 색 */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff1e28;
+    transform: scale(1.1);
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #45a29e; /* 청록색 결과 박스 */
+    border-radius: 5px;
+    color: black;
+    display: none; /* 처음에는 숨김 */
+}
